@@ -5,14 +5,14 @@
  
 In the tab bar there are 2 tabs : first tab contains travel's news and a second tab present world sport and entertainment news.
 
-While pressing the first tab, a screen with a collection view appears. Each cell displaying a new one in the field of travel.                                     
+While pressing the first tab, a screen with a collection view appears. Each cell displaying a new item in the field of travel.                                     
 While pressing the second tab, a table view with two sections appears. 
 
-The first section presents world sports news, 
+The first section presents world sport news, 
 the second section introduces  entertainment news in each cell.
 
-Each press redirect the user to a web view screen showing the  selected news.
+Each press direct the user to a web view screen showing the  selected news.
 
-When the user return to the main screen, a new label appears with the title of  the latest news   that has been selected on the World Sport and Entertainment news screen, in addition to the view displayed on this screen at the first launch.
+When the user return to the main screen, a new label appears with the title of  the latest news   that has been selected on the World Sport and Entertainment news screen, in addition to the view displayed on the screen by the first launch.
 
-When clicking the new label redirect you to the previous web view screen
+When clicking the new label it redirects you to the previous web view screen.

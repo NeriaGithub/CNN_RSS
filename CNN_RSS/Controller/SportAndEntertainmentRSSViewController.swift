@@ -34,7 +34,7 @@ class SportAndEntertainmentRSSViewController: BaseRSSViewController {
                 parser.parse()
             
             case .failure(_):
-                print("error")
+                break
             }
         }
     }
@@ -50,7 +50,7 @@ class SportAndEntertainmentRSSViewController: BaseRSSViewController {
                 parser.parse()
             
             case .failure(_):
-                print("error")
+                break
             }
         }
     }

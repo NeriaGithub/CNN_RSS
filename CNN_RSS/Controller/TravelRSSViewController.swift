@@ -36,7 +36,7 @@ class TravelRSSViewController: BaseRSSViewController {
                 parser.parse()
             
             case .failure(_):
-                print("error")
+                break
             }
         }
     }
