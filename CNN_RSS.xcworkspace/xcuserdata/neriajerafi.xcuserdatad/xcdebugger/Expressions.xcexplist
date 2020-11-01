@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "SportAndEntertainmentRSSViewController.paserFinish(rssItems:rssType:):SportAndEntertainmentRSSViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "DataManger.shared.RSSDictionary">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BaseRSSViewController.timerConfig():BaseRSSViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "timeInterval">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

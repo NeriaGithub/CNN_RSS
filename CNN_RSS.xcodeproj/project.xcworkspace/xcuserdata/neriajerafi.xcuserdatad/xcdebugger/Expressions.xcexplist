@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "CollectionController.collectionView(_:numberOfItemsInSection:):CollectionController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "DataManger.shared.travelRSS.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BaseRSSViewController.stopTimer():BaseRSSViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "timer?">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
