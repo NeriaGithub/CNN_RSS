@@ -27,7 +27,7 @@ class TravelRSSCell: UICollectionViewCell {
     }
     
     
-    //  creates dynamic height for the collection view cell 
+    // Overridden this function to to make dynamic height for the collection view cell
     override func preferredLayoutAttributesFitting(_ layoutAttributes: UICollectionViewLayoutAttributes) -> UICollectionViewLayoutAttributes {
            setNeedsLayout()
            layoutIfNeeded()

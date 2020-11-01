@@ -34,13 +34,15 @@
                                     <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0FA-Xc-YGm">
                                         <rect key="frame" x="0.0" y="59.5" width="288" height="0.0"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIC-fh-FTG">
                                         <rect key="frame" x="0.0" y="63.5" width="288" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <state key="normal" title="RSS NEWS"/>
+                                        <state key="normal" title=" CLIK HERE TO SEE RSS NEWS">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <segue destination="eLb-5L-JUs" kind="show" id="oVP-yO-mPY"/>
                                         </connections>
@@ -96,7 +98,7 @@
                             <constraint firstItem="ZC5-XP-yIf" firstAttribute="bottom" secondItem="RLK-fh-RBz" secondAttribute="bottom" id="plH-TZ-CTf"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Travel" id="N1Q-gL-jy7"/>
+                    <tabBarItem key="tabBarItem" title="Travel" image="newspaper.fill" catalog="system" id="N1Q-gL-jy7"/>
                     <connections>
                         <outlet property="collectionView" destination="RLK-fh-RBz" id="ppQ-vZ-dF4"/>
                     </connections>
@@ -165,7 +167,7 @@
                             <constraint firstItem="aj9-nh-09E" firstAttribute="leading" secondItem="M3Q-c0-842" secondAttribute="leading" id="cdf-nX-YSG"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Sport And Entertainment" id="1CZ-FM-IzE"/>
+                    <tabBarItem key="tabBarItem" title="Sport And Entertainment" image="newspaper.fill" catalog="system" id="1CZ-FM-IzE"/>
                     <connections>
                         <outlet property="sportAndEntertainmentTableView" destination="aj9-nh-09E" id="00n-bo-yHH"/>
                         <segue destination="i6q-FB-9vA" kind="show" identifier="segueFromTableFeeds" id="lM9-a5-btq"/>
@@ -196,6 +198,7 @@
         <segue reference="lM9-a5-btq"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="newspaper.fill" catalog="system" width="128" height="111"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
